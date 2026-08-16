@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal Resmi Satgas PPKPT STIKes Tengku Maharatu - Pusat Informasi & Pengaduan Kekerasan Perguruan Tinggi">
+    <title>Satgas PPKPT - STIKes Tengku Maharatu</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#1e293b',
+                blue: '#1e40af',
+                gold: '#d97706',
+              }
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <!-- NAVIGASI -->
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm fixed w-full top-0 z-50 transition border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                
+                <!-- BAGIAN LOGO PPKPT MAHARATU -->
+                <a href="#beranda" class="flex items-center space-x-3">
+                    <img src="logo-ppkpt.png" alt="Logo PPKPT STIKes Tengku Maharatu" class="h-12 w-auto object-contain drop-shadow-sm">
+                    <div>
+                        <span class="font-bold text-lg text-slate-900 block leading-tight">Satgas PPKPT</span>
+                        <span class="text-xs text-slate-500 block">STIKes Tengku Maharatu</span>
+                    </div>
+                </a>
+
+                <!-- Menu Desktop -->
+                <div class="hidden md:flex space-x-6 font-medium text-slate-600 text-sm items-center">
+                    <a href="#beranda" class="hover:text-brand-blue transition">Beranda</a>
+                    <a href="#edukasi" class="hover:text-brand-blue transition">Bentuk Kekerasan</a>
+                    <a href="#berita" class="hover:text-brand-blue transition">Berita & Kegiatan</a>
+                    <a href="#struktur" class="hover:text-brand-blue transition">Tim Satgas</a>
+                    <a href="#alur" class="hover:text-brand-blue transition">Alur Laporan</a>
+                    <a href="#laporkan" class="bg-red-600 text-white px-5 py-2.5 rounded-xl hover:bg-red-700 transition shadow-sm font-semibold">Laporkan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="pt-36 pb-24 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <div class="flex justify-center mb-6">
+                <img src="logo-ppkpt.png" alt="Logo PPKPT STIKes Tengku Maharatu" class="h-28 sm:h-32 w-auto object-contain bg-white/10 p-2 rounded-full backdrop-blur-md border border-white/20 shadow-xl">
+            </div>
+
+            <span class="bg-blue-500/10 text-blue-300 border border-blue-400/20 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider inline-block mb-4">
+                Ruang Aman & Bebas Kekerasan Kampus
+            </span>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight max-w-4xl mx-auto leading-tight">
+                Bersama Wujudkan Kampus STIKes Tengku Maharatu yang Aman
+            </h1>
+            <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mt-6 mb-10 leading-relaxed">
+                Satgas PPKPT hadir untuk mendampingi, melindungi, dan menindaklanjuti setiap bentuk kekerasan secara adil, tegas, serta <strong>dijamin kerahasiaannya</strong>.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#laporkan" class="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-red-600/30 transition flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    Buat Laporan Rahasia
+                </a>
+                <a href="#edukasi" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-xl backdrop-blur-sm transition border border-white/10">
+                    Pelajari Bentuk Kekerasan
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUKASI BENTUK KEKERASAN -->
+    <section id="edukasi" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-slate-900">Bentuk Kekerasan yang Ditangani</h2>
+            <p class="text-slate-600 mt-3">Sesuai Permendikbudristek, Satgas PPKPT memberikan perlindungan penuh terhadap pelanggaran-pelanggaran berikut:</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200/60 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">1</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Kekerasan Seksual</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">Tindakan merendahkan, menghina, menyerang, atau perbuatan lainnya yang bernuansa seksual secara fisik maupun non-fisik/siber tanpa persetujuan.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200/60 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">2</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Perundungan (Bullying)</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">Tindakan menyakiti, mengintimidasi, atau mengucilkan secara fisik, verbal, atau psikologis yang dilakukan berulang atau berpotensi terjadi lagi.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200/60 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">3</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Diskriminasi & Intimidasi</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">Pembedaan perlakuan, pengancaman, atau pemaksaan kehendak berdasarkan suku, agama, ras, gender, status sosial, atau kondisi fisik/disabilitas.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200/60 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">4</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Kekerasan Fisik</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">Setiap perbuatan melukai, menyiksa, atau melakukan kontak fisik dengan atau tanpa alat bantu yang menimbulkan rasa sakit, luka, atau kematian.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200/60 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">5</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Kekerasan Psikis</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">Perbuatan nonfisik yang mengakibatkan ketakutan, hilangnya rasa percaya diri, rasa tidak berdaya, atau penderitaan psikis berat pada seseorang.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200/60 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">6</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Kebijakan yang Mengandung Kekerasan</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">Stiap keputusan, aturan, atau tindakan—baik tertulis maupun tidak tertulis—dari lembaga pendidikan yang berpotensi atau nyata menimbulkan kekerasan fisik, psikis, atau merugikan hak-hak warga satuan pendidikan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION BERITA & KEGIATAN TERBARU -->
+    <section id="berita" class="py-20 bg-slate-100/60 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold text-xs uppercase tracking-widest block mb-2">Informasi & Edukasi</span>
+                <h2 class="text-3xl font-bold text-slate-900">Berita & Kegiatan Satgas PPKPT</h2>
+                <p class="text-slate-600 mt-3">Kumpulan dokumentasi kegiatan, sosialisasi, dan informasi terkini dari Satgas PPKPT STIKes Tengku Maharatu.</p>
+            </div>
+
+            <!-- GRID CARD BERITA (Dirender lewat JavaScript) -->
+            <div id="news-grid" class="grid md:grid-cols-3 gap-8">
+                <!-- Otomatis diisi oleh script -->
+            </div>
+        </div>
+    </section>
+
+    <!-- STRUKTUR ORGANISASI & ANGGOTA SATGAS -->
+    <section id="struktur" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold text-xs uppercase tracking-widest block mb-2">Tim Kerja</span>
+                <h2 class="text-3xl font-bold text-slate-900">Struktur Organisasi Satgas PPKPT</h2>
+                <p class="text-slate-600 mt-3">Satgas PPKPT STIKes Tengku Maharatu terdiri dari perwakilan Dosen, Tenaga Kependidikan, dan Mahasiswa yang ditetapkan berdasarkan SK Ketua STIKes Tengku Maharatu.</p>
+            </div>
+
+             <!-- KETUA & SEKRETARIS (UTAMA) -->
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+                <!-- Ketua Satgas -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-2 border-blue-900/10 text-center relative overflow-hidden">
+                    <img src="ketua-satgas.png" alt="Foto Ketua Satgas" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-md border-2 border-blue-900/20">
+                    <!--<div class="w-24 h-24 bg-blue-900 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-md">
+                        K
+                    </div>-->
+                    <span class="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide inline-block mb-3">Ketua Satgas</span>
+                    <h3 class="text-xl font-bold text-slate-900">Ns.Osi Draini,S.Kep.,M.Kes</h3>
+                    <p class="text-sm text-slate-500 mt-1">Unsur Dosen / Prodi S1 Keperawatan</p>
+                </div>
+
+                <!-- Sekretaris Satgas -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center relative overflow-hidden">
+                    <img src="sekretaris-satgas.png" alt="Foto Sekretaris Satgas" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover shadow-md border-2 border-slate-700/20">
+                    <!--<div class="w-24 h-24 bg-slate-700 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-md">
+                        S
+                    </div>-->
+                    <span class="bg-slate-100 text-slate-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide inline-block mb-3">Sekretaris</span>
+                    <h3 class="text-xl font-bold text-slate-900">Tentya Indah M,S.Tr.Keb.,M.Tr.Keb</h3>
+                    <p class="text-sm text-slate-500 mt-1">Unsur Dosen / Prodi S1 Kebidanan</p>
+                </div>
+            </div>
+
+
+            <!-- ANGGOTA SATGAS -->
+            <div class="max-w-6xl mx-auto">
+                <h3 class="text-lg font-bold text-slate-900 text-center mb-8">Anggota Satgas Multi-Unsur</h3>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Anggota Dosen 1 -->
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex items-center space-x-4">
+                        <img src="anggota-dosen-1.png" alt="Foto Anggota Dosen 1" class="w-12 h-12 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                        <div>
+                            <span class="text-xs font-semibold text-blue-600 block">Unsur Dosen</span>
+                            <h4 class="font-bold text-slate-900 text-sm">Ummu Luthfiyah,S.Tr.Keb., M.Tr.Keb</h4>
+                            <p class="text-xs text-slate-500">Program Studi DIII Kebidanan</p>
+                        </div>
+                    </div>
+
+                    <!-- Anggota Dosen 2 -->
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex items-center space-x-4">
+                        <img src="anggota-dosen-2.png" alt="Foto Anggota Dosen 2" class="w-12 h-12 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                        <div>
+                            <span class="text-xs font-semibold text-blue-600 block">Unsur Dosen</span>
+                            <h4 class="font-bold text-slate-900 text-sm">Akmal Darman Putra,M.Kom</h4>
+                            <p class="text-xs text-slate-500">Program Studi S1 Keperawatan</p>
+                        </div>
+                    </div>
+
+                    <!-- Anggota Tendik -->
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex items-center space-x-4">
+                        <img src="anggota-tendik.png" alt="Foto Anggota Tenaga Kependidikan" class="w-12 h-12 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                        <div>
+                            <span class="text-xs font-semibold text-amber-600 block">Unsur Tenaga Kependidikan</span>
+                            <h4 class="font-bold text-slate-900 text-sm">Rivalza Pahlevi,ST</h4>
+                            <p class="text-xs text-slate-500">Bagian Kemahasiswaan</p>
+                        </div>
+                    </div>
+
+                    <!-- Anggota Mahasiswa 1 -->
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-emerald-50 text-emerald-700 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                            M
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold text-emerald-600 block">Unsur Mahasiswa</span>
+                            <h4 class="font-bold text-slate-900 text-sm">Nahdah</h4>
+                            <p class="text-xs text-slate-500">Perwakilan BEM / Mahasiswa</p>
+                        </div>
+                    </div>
+
+                    <!-- Anggota Mahasiswa 2 -->
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-emerald-50 text-emerald-700 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                            M
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold text-emerald-600 block">Unsur Mahasiswa</span>
+                            <h4 class="font-bold text-slate-900 text-sm">M.Umar</h4>
+                            <p class="text-xs text-slate-500">Perwakilan Mahasiswa</p>
+                        </div>
+                    </div>
+
+                    <!-- Anggota Mahasiswa 3 -->
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-emerald-50 text-emerald-700 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                            M
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold text-emerald-600 block">Unsur Mahasiswa</span>
+                            <h4 class="font-bold text-slate-900 text-sm">M.Fauzan</h4>
+                            <p class="text-xs text-slate-500">Perwakilan Mahasiswa</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALUR PENANGANAN -->
+    <section id="alur" class="py-20 bg-slate-100/70 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Alur Penanganan Laporan</h2>
+                <p class="text-slate-600 mt-3">Prosedur penanganan laporan dilakukan secara profesional, netral, dan terstruktur.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl border border-slate-200 relative">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-widest block mb-2">Langkah 1</span>
+                    <h4 class="font-bold text-slate-900 mb-2">Penerimaan Laporan</h4>
+                    <p class="text-xs text-slate-600">Pelapor mengisi formulir WhatsApp. Satgas melakukan verifikasi awal keberadaan aduan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 relative">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-widest block mb-2">Langkah 2</span>
+                    <h4 class="font-bold text-slate-900 mb-2">Pemeriksaan & Pendampingan</h4>
+                    <p class="text-xs text-slate-600">Pengumpulan keterangan saksi/bukti serta pemberian perlindungan/konseling awal jika dibutuhkan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 relative">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-widest block mb-2">Langkah 3</span>
+                    <h4 class="font-bold text-slate-900 mb-2">Penyusunan Rekomendasi</h4>
+                    <p class="text-xs text-slate-600">Satgas menyusun hasil analisis dan rekomendasi sanksi atau pemulihan untuk Pimpinan Kampus.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 relative">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-widest block mb-2">Langkah 4</span>
+                    <h4 class="font-bold text-slate-900 mb-2">Tindak Lanjut & Pemulihan</h4>
+                    <p class="text-xs text-slate-600">Pelaksanaan keputusan pimpinan serta pengawasan perlindungan bagi korban/pelapor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULIR PENGADUAN (LANGSUNG KE WA + BUKTI GOOGLE DRIVE) -->
+    <section id="laporkan" class="py-20 bg-slate-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-8 sm:p-10 rounded-3xl shadow-xl border border-slate-200">
+                <div class="mb-8 border-b border-slate-100 pb-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Formulir Pengaduan Safe-Space</h2>
+                    <p class="text-slate-600 text-sm mt-2">Data ini akan diteruskan secara otomatis ke nomor resmi <strong>WhatsApp Satgas PPKPT STIKes Tengku Maharatu</strong>. Identitas Anda dijamin kerahasiaannya.</p>
+                </div>
+
+                <form id="waForm" onsubmit="sendToWhatsApp(event)" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Status Pelapor <span class="text-red-500">*</span></label>
+                        <select id="statusPelapor" required class="w-full border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-slate-50">
+                            <option value="Korban">Saya Korban Langsung</option>
+                            <option value="Saksi">Saya Saksi (Melihat / Mengetahui Kejadian)</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Nama Pelapor / Inisial <span class="text-red-500">*</span></label>
+                            <input type="text" id="namaPelapor" placeholder="Contoh: Hamba Allah / Anonim" required class="w-full border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-slate-50">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Nomor Kontak (HP/WA) <span class="text-red-500">*</span></label>
+                            <input type="text" id="kontakPelapor" placeholder="08xxxxxxxxxx" required class="w-full border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-slate-50">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Bentuk Kekerasan yang Dilaporkan <span class="text-red-500">*</span></label>
+                        <select id="jenisKekerasan" required class="w-full border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-slate-50">
+                            <option value="Kekerasan Seksual">Kekerasan Seksual</option>
+                            <option value="Perundungan (Bullying)">Perundungan (Bullying)</option>
+                            <option value="Diskriminasi & Intimidasi">Diskriminasi & Intimidasi</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Kronologi Kejadian <span class="text-red-500">*</span></label>
+                        <textarea id="kronologi" rows="4" required placeholder="Jelaskan secara ringkas kejadian (Termasuk perkiraan tanggal, lokasi kampus/luar kampus, dan kronologi)..." class="w-full border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-slate-50"></textarea>
+                    </div>
+
+                    <!-- FITUR UPLOAD BUKTI (LINK GOOGLE DRIVE) -->
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">
+                            Link Bukti Pendukung (Google Drive / Cloud) <span class="text-xs text-slate-500 font-normal">(Opsional)</span>
+                        </label>
+                        <input type="url" id="linkBukti" placeholder="https://drive.google.com/..." class="w-full border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-slate-50">
+                        <p class="text-xs text-slate-500 mt-1">Unggah foto/bukti ke Google Drive/Photos, lalu tempelkan link berbagi yang dapat diakses Satgas di sini.</p>
+                    </div>
+
+                    <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-3 text-base">
+                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                        Kirim Laporan via WhatsApp Satgas
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center text-sm border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col items-center">
+            <img src="logo-ppkpt.png" alt="Logo PPKPT STIKes Tengku Maharatu" class="h-16 w-auto mb-4 object-contain">
+            <p class="font-semibold text-slate-300 mb-1">Satgas PPKPT STIKes Tengku Maharatu</p>
+            <p>© 2026 PPKPT STIKes Tengku Maharatu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DETAIL BERITA (POP-UP BACA SELENGKAPNYA) -->
+    <div id="modal-berita" class="fixed inset-0 z-50 hidden bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 relative my-8">
+            
+            <!-- Tombol Close Modal -->
+            <button onclick="tutupModalBerita()" class="absolute top-4 right-4 bg-slate-900/60 hover:bg-slate-900 text-white w-10 h-10 rounded-full flex items-center justify-center z-10 transition">
+                ✕
+            </button>
+
+            <!-- Header Gambar Modal -->
+            <div class="relative h-64 sm:h-80 w-full bg-slate-200">
+                <img id="modal-gambar" src="" alt="" class="w-full h-full object-cover">
+                <div class="absolute bottom-4 left-6">
+                    <span id="modal-kategori" class=""></span>
+                </div>
+            </div>
+
+            <!-- Body Isi Berita -->
+            <div class="p-6 sm:p-8">
+                <div class="flex items-center text-xs text-slate-500 space-x-4 mb-3 font-medium">
+                    <span id="modal-tanggal"></span>
+                    <span>•</span>
+                    <span>Oleh: <strong id="modal-penulis" class="text-slate-700"></strong></span>
+                </div>
+
+                <h2 id="modal-judul" class="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-6 leading-snug"></h2>
+                
+                <div id="modal-isi" class="text-slate-700 text-sm sm:text-base leading-relaxed border-t border-slate-100 pt-6">
+                    <!-- Isi berita lengkap di-render di sini -->
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-slate-100 text-right">
+                    <button onclick="tutupModalBerita()" class="bg-slate-800 hover:bg-slate-900 text-white text-sm font-semibold px-6 py-2.5 rounded-xl transition">
+                        Tutup Berita
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT UTAMA (WHATSAPP & BERITA) -->
+    <script>
+        // Data Berita & Kegiatan Satgas PPKPT
+        const beritaData = [
+            {
+                id: 1,
+                judul: "Sosialisasi Pencegahan Kekerasan di Lingkungan Kampus STIKes Tengku Maharatu",
+                tanggal: "12 Agustus 2026",
+                kategori: "Sosialisasi",
+                kategoriBg: "bg-blue-600",
+                penulis: "Tim Satgas PPKPT",
+                deskripsi: "Satgas PPKPT menggelar kegiatan sosialisasi interaktif bagi mahasiswa baru guna menciptakan lingkungan akademik yang aman, inklusif, dan bebas dari tindakan kekerasan.",
+                kontenLengkap: `
+                    <p class="mb-4">Dalam rangka menciptakan lingkungan akademik yang aman, nyaman, dan inklusif, Satgas Pencegahan dan Penanganan Kekerasan Perguruan Tinggi (PPKPT) STIKes Tengku Maharatu menyelenggarakan kegiatan sosialisasi bertajuk <strong>"Membangun Ruang Aman Bersama di Kampus"</strong>.</p>
+                    <p class="mb-4">Acara ini dihadiri oleh ratusan mahasiswa baru, dosen, serta jajaran sivitas akademika. Dalam pemaparannya, Ketua Satgas PPKPT menekankan pentingnya kesadaran kolektif untuk mengenali berbagai bentuk kekerasan, mulai dari perundungan (bullying), kekerasan seksual, hingga tindakan diskriminatif.</p>
+                    <p class="mb-4">"Kampus harus menjadi rumah yang aman bagi siapa saja untuk belajar dan berkarya tanpa rasa takut. Kami memastikan bahwa setiap aduan yang masuk ke Satgas PPKPT akan ditangani secara profesional, independen, dan dijamin kerahasiaannya," tegas Ketua Satgas.</p>
+                    <p>Selain sesi materi, kegiatan ini juga dilengkapi dengan simulasi alur pengaduan online dan penandatanganan komitmen bersama untuk mewujudkan STIKes Tengku Maharatu bebas dari segala bentuk kekerasan.</p>
+                `,
+                gambar: "berita1.png"
+            },
+            {
+                id: 2,
+                judul: "Pelatihan Konseling & Pendampingan Korban bagi Anggota Satgas",
+                tanggal: "05 Juli 2026",
+                kategori: "Pelatihan",
+                kategoriBg: "bg-emerald-600",
+                penulis: "Humas PPKPT",
+                deskripsi: "Dalam rangka meningkatkan kapasitas penanganan aduan, seluruh anggota Satgas PPKPT mengikuti bimbingan teknis pendampingan psikologis awal bagi korban kekerasan.",
+                kontenLengkap: `
+                    <p class="mb-4">Guna memperkuat kapasitas internal dalam merespons aduan kekerasan, Satgas PPKPT STIKes Tengku Maharatu menggelar Bimbingan Teknis dan Pelatihan Konseling Dasar Pendampingan Korban.</p>
+                    <p class="mb-4">Pelatihan ini menghadirkan psikolog klinis dan praktisi hukum sebagai narasumber utama. Anggota Satgas dilatih mengenai pertolongan pertama psikologis (Psychological First Aid/PFA), teknik wawancara sensitif korban, serta prosedur penanganan trauma awal.</p>
+                    <p class="mb-4">"Pendampingan korban membutuhkan ketelitian, rasa empati yang tinggi, serta pemahaman akan hak-hak korban. Anggota Satgas harus siap menjadi pendengar yang aman tanpa memberikan stigma," ujar narasumber psikolog.</p>
+                    <p>Dengan pelatihan ini, diharapkan seluruh jajaran tim Satgas dari unsur Dosen, Tendik, maupun Mahasiswa semakin siap dalam menjalankan fungsi penanganan dan pemulihan secara optimal.</p>
+                `,
+                gambar: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 3,
+                judul: "Peluncuran Portal Resmi Layanan Pengaduan PPKPT STIKes Tengku Maharatu",
+                tanggal: "20 Mei 2026",
+                kategori: "Pengumuman",
+                kategoriBg: "bg-purple-600",
+                penulis: "Tim IT Kampus",
+                deskripsi: "Portal web resmi kini dapat diakses secara publik oleh seluruh civitas akademika untuk mempermudah pelaporan kasus secara rahasia dan aman.",
+                kontenLengkap: `
+                    <p class="mb-4">Satgas PPKPT STIKes Tengku Maharatu secara resmi meluncurkan Portal Web Pengaduan dan Edukasi Digital. Peluncuran ini bertujuan untuk mempermudah akses pelaporan yang aman, rahasia, dan langsung terintegrasi dengan tim penanganan.</p>
+                    <p class="mb-4">Portal ini dirancang responsif dan fleksibel agar dapat diakses baik melalui perangkat telepon genggam maupun komputer. Fitur unggulan yang dihadirkan meliputi formulir pengaduan rahasia via WhatsApp, lampiran bukti digital via cloud, serta direktori informasi edukasi kekerasan.</p>
+                    <p class="mb-4">"Hadirnya portal ini merupakan langkah konkrit digitalisasi sistem layanan di lingkungan kampus. Kami ingin memastikan tidak ada hambatan birokrasi bagi korban atau saksi yang ingin melaporkan kejadian," ujar perwakilan Tim IT Kampus.</p>
+                    <p>Seluruh civitas akademika diimbau untuk memanfaatkan portal resmi ini sebagai sarana informasi, edukasi, dan pengaduan terpercaya.</p>
+                `,
+                gambar: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+            }
+        ];
+
+        // Render Berita ke Grid HTML
+        function renderBerita() {
+            const container = document.getElementById('news-grid');
+            if (!container) return;
+
+            container.innerHTML = beritaData.map(item => `
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 hover:shadow-lg transition duration-300 flex flex-col">
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="${item.gambar}" alt="${item.judul}" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                        <span class="absolute top-3 left-3 ${item.kategoriBg} text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                            ${item.kategori}
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs text-slate-400 font-semibold mb-2">${item.tanggal}</div>
+                            <h3 class="text-lg font-bold text-slate-900 mb-2 hover:text-blue-600 transition">
+                                ${item.judul}
+                            </h3>
+                            <p class="text-slate-600 text-xs leading-relaxed line-clamp-3">
+                                ${item.deskripsi}
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                            <span>Oleh: ${item.penulis}</span>
+                            <button onclick="bacaBeritaLengkap(${item.id})" class="hover:underline text-blue-600 font-bold focus:outline-none">
+                                Baca Selengkapnya &rarr;
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        // Buka Modal Berita
+        function bacaBeritaLengkap(id) {
+            const berita = beritaData.find(b => b.id === id);
+            if (!berita) return;
+
+            const modal = document.getElementById('modal-berita');
+            
+            document.getElementById('modal-gambar').src = berita.gambar;
+            document.getElementById('modal-gambar').alt = berita.judul;
+            document.getElementById('modal-kategori').innerText = berita.kategori;
+            document.getElementById('modal-kategori').className = `text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider text-white ${berita.kategoriBg}`;
+            document.getElementById('modal-tanggal').innerText = berita.tanggal;
+            document.getElementById('modal-penulis').innerText = berita.penulis;
+            document.getElementById('modal-judul').innerText = berita.judul;
+            document.getElementById('modal-isi').innerHTML = berita.kontenLengkap;
+
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Tutup Modal Berita
+        function tutupModalBerita() {
+            const modal = document.getElementById('modal-berita');
+            if (modal) {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        // Kirim WhatsApp Pengaduan
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+
+            // ⚠️ Ganti dengan Nomor WhatsApp Satgas PPKPT STIKes Tengku Maharatu yang aktif
+            const phoneSatgas = "6281234567890"; 
+
+            const status = document.getElementById('statusPelapor').value;
+            const nama = document.getElementById('namaPelapor').value;
+            const kontak = document.getElementById('kontakPelapor').value;
+            const jenis = document.getElementById('jenisKekerasan').value;
+            const kronologi = document.getElementById('kronologi').value;
+            const linkBuktiVal = document.getElementById('linkBukti').value.trim();
+            const linkBukti = linkBuktiVal !== "" ? linkBuktiVal : "Tidak ada link bukti dilampirkan";
+
+            const textMessage = 
+`*--- LAPORAN PENGADUAN SATGAS PPKPT ---*
+*STIKes Tengku Maharatu*
+
+*Status Pelapor:* ${status}
+*Nama/Inisial:* ${nama}
+*Kontak Pelapor:* ${kontak}
+*Jenis Kekerasan:* ${jenis}
+
+*Kronologi Kejadian:*
+${kronologi}
+
+*Link Bukti Pendukung (Google Drive):*
+${linkBukti}
+
+----------------------------------------
+_Laporan dikirim via Portal Resmi PPKPT_`;
+
+            const waUrl = `https://wa.me/${phoneSatgas}?text=${encodeURIComponent(textMessage)}`;
+            window.open(waUrl, '_blank');
+        }
+
+        // Inisialisasi saat DOM siap
+        document.addEventListener('DOMContentLoaded', renderBerita);
+    </script>
+</body>
+</html>
